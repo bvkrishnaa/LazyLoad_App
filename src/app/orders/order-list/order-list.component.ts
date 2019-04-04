@@ -9,7 +9,6 @@ import { CustomerListComponent} from '../../customers/customer-list/customer-lis
 export class OrderListComponent implements OnInit {
   @Input() hh:CustomerListComponent;
   constructor() {
-    alert(this.hh.listName);
    }
 
   ngOnInit() {
