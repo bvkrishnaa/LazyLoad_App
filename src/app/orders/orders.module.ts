@@ -8,7 +8,7 @@ import{CustomersModule} from '../customers/customers.module';
 import { CustomerListComponent } from '../customers/customer-list/customer-list.component';
 
 @NgModule({
-  declarations: [OrderListComponent,CustomerListComponent],
+  declarations: [OrderListComponent],
   imports: [
     CommonModule,//CustomerListComponent,
     OrdersRoutingModule,CustomersModule
